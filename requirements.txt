@@ -1,0 +1,10 @@
+fastapi[standard]
+fastapi-tailwind
+pylint
+pytest
+click
+black
+pytest-cov
+uvicorn
+ipython
+httpx

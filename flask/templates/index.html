@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../static/app.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" />
+</head>
+<body class="bg-blue-600 text-gray-900">
+    <h2 class="text-xl font-semibold mb-4 ">Hello world</h2>
+     <div class="bg-white shadow-md rounded-lg p-6 mb-8">
+      <h2 class="text-xl font-semibold mb-4">Solicited Product</h2>
+      <form id="orderForm" class="grid grid-cols-1 md:grid-cols-4 gap-4">
+        <input class="p-2 border rounded" type="text" id="productName" placeholder="Name-Product" required />
+        <input class="p-2 border rounded" type="number" id="quantity" step="0.1" placeholder="Quantity" required />
+        <button class="col-span-1 md:col-span-4 bg-blue-600 text-white py-2 rounded hover:bg-blue-700 transition" type="submit" onclick="submitOrder()">
+          Summit
+        </button>
+      </form>
+    </div>
+
+</body>
+</html>
